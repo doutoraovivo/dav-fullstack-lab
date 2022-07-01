@@ -1,0 +1,16 @@
+{
+  "name": "dav-base-exam",
+  "version": "1.0.0",
+  "description": "Base Exam Test",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "start": "npm run build && npm start --workspace=backend"
+  },
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "author": "Luciano Jesus Lima <luciano@doutoraovivo.com.br>",
+  "license": "ISC"
+}
